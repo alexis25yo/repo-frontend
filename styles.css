@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  padding: 20px;
+  font-size: 60px;
+}
+
+#table-container {
+  padding: 20px;
+  background-color: #8be72e;
+  border-radius: 20px;
+}
+
+.table_header {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.table_body {
+  padding: 10px;
+  text-align: center;
+}
